@@ -36,4 +36,4 @@ Dependencies
 ----
 
 The proxy uses [github.com/joho/godotenv](https://github.com/joho/godotenv) to read environment variables
-from a `.env` file.
+from your `.env` file.
