@@ -19,7 +19,7 @@ $ REMOTE_HOST={api_host} PORT={local_port} K_USER_ID={user_id} K_PRIVATE_KEY={pr
 or set up a `.env` file that will be read by the proxy
 ```
 $ cat <<EOF >> .env
-REMOTE_HOST="https://kiddom-content-dev.herokuapp.com
+REMOTE_HOST="https://kiddom-content-dev.herokuapp.com"
 PORT=4000
 K_USER_ID=foobar
 K_PRIVATE_KEY=myvoiceismypassword
