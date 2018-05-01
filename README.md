@@ -13,7 +13,8 @@ The proxy reads the following environment variables:
 
 ### Example:
 ```
-$ REMOTE_HOST={api_host} PORT={local_port} K_USER_ID={user_id} K_PRIVATE_KEY={private_key/password} go run main.go
+$ REMOTE_HOST={api_host} PORT={local_port} K_USER_ID={user_id} K_PRIVATE_KEY={private_key/password} \
+    go run main.go
 ```
 or set up a `.env` file that will be read by the proxy
 ```
