@@ -30,6 +30,9 @@ $ go run main.go
 Then you can pass requests directly to the proxy, which will sign them:
 ```
 $ curl -sH 'Accept-encoding: identity' http://localhost:4000/content_import
+[]
+
+$ curl -X POST -sH 'Accept-encoding: identity' -F 'data=@filename.csv' http://localhost:4000/content_import
 ```
 
 Dependencies
